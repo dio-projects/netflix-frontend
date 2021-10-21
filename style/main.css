@@ -1,0 +1,115 @@
+body {
+    background: #141414;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+/* Header content */
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+header .container .logo {
+    color: #E50914;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+header .container nav {
+    padding-left: 40px;
+}
+
+header .container nav a {
+    color: #AAAAAA;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header .container nav a:hover {
+    color: #ffffff
+}
+
+/* Main content */
+.main-content {
+    font-size: 36px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../static/images/squid-game-background.jpg');
+    background-position: top center;
+    background-size:cover;
+    height: 700px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-content .main-content-data {
+    margin-left: 50px;
+}
+
+.main-content .main-content-logo .content-logo{
+    width: 100%;
+}
+
+.main-content .description {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    width: 400px;
+    
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+.main-content .buttons .button {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;    
+
+    cursor: pointer;
+    
+}
+
+.main-content .buttons .play-button {
+    background-color: white;
+}
+
+.main-content .buttons .info-button {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.main-content .buttons .play-button:hover {
+    background-color: rgb(190, 190, 190);
+    transition: 0.2s ease all;
+
+}
+
+.main-content .buttons .info-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.2s ease all;
+}
+
+.main-content .button i {
+    margin-right: 5px;
+}
+
+
+
+/* Other */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
