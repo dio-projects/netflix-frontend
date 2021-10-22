@@ -9,8 +9,8 @@ header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -44,13 +44,13 @@ header .container nav a:hover {
     height: 700px;
 
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
 .main-content .main-content-data {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .main-content .main-content-logo .content-logo{
@@ -78,7 +78,6 @@ header .container nav a:hover {
     border-radius: 5px;    
 
     cursor: pointer;
-    
 }
 
 .main-content .buttons .play-button {
@@ -93,7 +92,6 @@ header .container nav a:hover {
 .main-content .buttons .play-button:hover {
     background-color: rgb(190, 190, 190);
     transition: 0.2s ease all;
-
 }
 
 .main-content .buttons .info-button:hover {
@@ -104,8 +102,6 @@ header .container nav a:hover {
 .main-content .button i {
     margin-right: 5px;
 }
-
-
 
 /* Other */
 * {
